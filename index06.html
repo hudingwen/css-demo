@@ -1,0 +1,46 @@
+<html lang="zh">
+
+<head>
+  <style>
+    div {
+      display: flex;
+      width: 80%;
+      height: 400px;
+      background-color: pink;
+
+
+
+    }
+
+    div span:nth-child(1) {
+      width: 150px;
+      height: 100px;
+      background-color: red;
+      margin-right: 10px;
+    }
+
+    div span:nth-child(2) { 
+      background-color: green;
+      margin-right: 10px;
+      height: 100px;
+      /* 自适应宽度 */
+      flex: 1;
+    }
+
+    div span:nth-child(3) {
+      width: 150px;
+      height: 100px;
+      background-color: blue; 
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+  </div>
+</body>
+
+</html>

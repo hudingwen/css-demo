@@ -1,0 +1,37 @@
+<html lang="zh">
+
+<head>
+  <style>
+    div {
+      width: 80%;
+      height: 300px;
+      background-color: pink;
+      display: flex;
+      /* 默认主轴是x轴 row */
+      /* 元素是跟着主轴排列 */
+      /* flex-direction: row; */
+
+      /* 翻转,从右往左 */
+      /* flex-direction: row-reverse; */
+
+      /* 设置主轴为y轴(纵向排列) */
+      flex-direction: column;
+    }
+
+    div span {
+      width: 150px;
+      height: 100px;
+      background-color: purple;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+  </div>
+</body>
+
+</html>

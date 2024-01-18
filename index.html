@@ -1,0 +1,34 @@
+<html lang="zh">
+
+<head>
+  <style>
+    /* 初体验 */
+    div {
+      width: 80%;
+      height: 300px;
+      background-color: pink;
+      display: flex;
+      /* 平均分配左右外边距 */
+      justify-content: space-around;
+    }
+
+    div span {
+      width: 150px;
+      height: 100px;
+      background-color: purple;
+      margin-right: 5px;
+      /* 自适应宽度 */
+      flex: 1; 
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+  </div>
+</body>
+
+</html>

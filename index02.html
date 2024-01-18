@@ -1,0 +1,48 @@
+<html lang="zh">
+
+<head>
+  <style>
+    div {
+      width: 80%;
+      height: 400px;
+      background-color: pink;
+      flex-direction: row;
+      /* 默认主轴是x轴  row*/
+      display: flex;
+      /* 是设置主轴上子元素的排列方式 */
+      /* 类似左浮动 */
+      /* justify-content: flex-start; */
+      /* 类似右浮动 */
+      /* justify-content: flex-end; */
+      /* 居中对齐 */
+      /* justify-content: center; */
+      /* 平均分配剩余空间 */
+      justify-content: space-around;
+      /* 先贴边,在平均分配剩余空间 */
+      /* justify-content: space-between; */
+      /* 设置子元素是否换行,不换行会缩放子元素 */
+      flex-wrap: wrap;
+
+    }
+
+    div span {
+      width: 150px;
+      height: 100px;
+      background-color: purple;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+    <span>6</span>
+    <span>7</span>
+  </div>
+</body>
+
+</html>
